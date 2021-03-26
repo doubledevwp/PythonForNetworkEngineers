@@ -36,7 +36,7 @@ for i in range(10):
     houston_data_center.append(base_ip_houston + str(i) + ".1")
     if(i == 5):
         houston_data_center.append(base_ip_houston + str(i) + ".1")
-houston_data_center_set = set(houston_data_center)        
+houston_data_center_set = set(houston_data_center)
 
 for i in range(8):
     atlanta_data_center.append(base_ip_atlanta + str(i) + ".1")
