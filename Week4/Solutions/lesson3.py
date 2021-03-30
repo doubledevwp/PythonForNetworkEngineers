@@ -14,7 +14,7 @@ T1 Serial Number: FTX0000038X
 from __future__ import print_function
 import re
 
-with open('./assets/show_version.txt') as f:
+with open('../assets/show_version.txt') as f:
     output = f.read()
 
 found = re.search("^Cisco .* Version (.*),", output, re.M)
