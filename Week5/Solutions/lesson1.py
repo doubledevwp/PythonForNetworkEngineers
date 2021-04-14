@@ -18,6 +18,7 @@ def ssh_conn(ip_addr, username, password):
     print("IP Address: ", ip_addr)
     print("Username: ", username)
     print("Password: ", password)
+    print('-------------' * 2)
 
 ssh_conn('192.1.0.123', 'testerson', 'urmom')
 ssh_conn(username='what is this?', ip_addr='123.12.32.41', password='eatmyshorts')
