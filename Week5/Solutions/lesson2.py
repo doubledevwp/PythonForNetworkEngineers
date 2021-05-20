@@ -12,12 +12,14 @@ Call this ssh_conn2 function using the **kwargs technique.
 
 from __future__ import print_function
 
+
 def ssh_conn2(ip_addr, username, password, device_type='cisco_ios'):
     print("IP Address: ", ip_addr)
     print("Username: ", username)
     print("Password: ", password)
     print("Device Type: ", device_type)
     print('-------------' * 2)
+
 
 ssh_conn2('192.1.0.123', 'testerson', 'urmom')
 ssh_conn2('123.123.123.123', device_type='tenda wifi', password='qwerty123easy', username='yessireebob')
