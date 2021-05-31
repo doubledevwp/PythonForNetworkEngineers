@@ -101,7 +101,7 @@ Length is 4 minutes <br>
 
 ---
 
-# More References
+# GitHub.com: Kirk Byers
 Reference code for these exercises is posted on GitHub at:
 
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
