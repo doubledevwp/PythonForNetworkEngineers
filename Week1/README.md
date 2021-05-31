@@ -108,7 +108,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
 ---
 
-# CLASS OUTLINE
+# Video Outline
 
 - Introduction (VIDEO1)
    - Purpose of the course  [0:11]
