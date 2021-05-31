@@ -1,7 +1,7 @@
-Create an ssh_conn function. This function should have three parameters: ip_addr, username, and password. The function should print out each of these three variables and clearly indicate which variable it is printing out.
+Create a Python script that has three variables: `ip_addr1`, `ip_addr2`, `ip_addr3` (representing three corresponding IP addresses).
 
-   Call this ssh_conn function using entirely positional arguments.
+Print these three variables to standard output using a single print statement.
 
-   Call this ssh_conn function using entirely named arguments.
+Make your print statement compatible with both Python2 and Python3.
 
-   Call this ssh_conn function using a mix of positional and named arguments.
+If you are using either Linux or MacOS make your program executable by adding a shebang line and by changing the files permissions (i.e. `chmod 755 exercise1.py`).

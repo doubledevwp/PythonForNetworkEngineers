@@ -1,16 +1,12 @@
-Create a function that randomly generates an IP address for a network. The default base network should be '10.10.10.'. For simplicity the network will always be a /24.
+Create three different variables the first variable should use all lower case characters with underscore ( _ ) as the word separator. 
 
-    You should be able to pass a different base network into your function as an argument.
+The second variable should use all upper case characters with underscore as the word separator. 
 
-    Randomly pick a number between 1 and 254 for the last octet and return the full IP address.
+The third variable should use numbers, letters, and underscore, but still be a valid variable Python variable name.
 
-    You can use the following to randomly generate the last octet:
+Make all three variables be strings that refer to IPv6 addresses.
 
-    import random <br>
-    random.randint(1, 254)
+Use the from future technique so that any string literals in Python2 are unicode.
 
-    Call your function using no arguments. <br>
-    Call your function using a positional argument. <br>
-    Call your function using a named argument. <br>
-
-    For each function call print the returned IP address to the screen.
+Compare if variable1 equals variable2
+Compare if variable1 is not equal to variable3

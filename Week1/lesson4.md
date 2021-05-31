@@ -1,19 +1,15 @@
-Similar to lesson3, exercise4 write a function that normalizes a MAC address to the following format:
+Create a show_version variable that contains the following:
 
-   01:23:45:67:89:AB
+```
+show_version = "*0        CISCO881-SEC-K9       FTX0000038X    " 
+```
 
-   This function should handle the lower-case to upper-case conversion.
+Remove all leading and trailing whitespace from the string.
 
-   It should also handle converting from '0000.aaaa.bbbb' and from '00-00-aa-aa-bb-bb' formats.
+Split the string and extract the model and serial_number from it.
 
-   The function should have one parameter, the mac_address. It should return the normalized MAC address
+Check if 'Cisco' is contained in the model string (ignore capitalization).
 
-   Single digit bytes should be zero-padded to two digits. In other words, this:
+Check if '881' is in the model string.
 
-   a:b:c:d:e:f
-
-   should be converted to:
-
-   0A:0B:0C:0D:0E:0F
-
-   Write several test cases for your function and verify it is working properly.
+Print out both the serial number and the model.

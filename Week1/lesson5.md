@@ -1,10 +1,17 @@
-Copy your solution from exercise3 to exercise4. Add an 'import pdb' and pdb.set_trace() statement outside of your function (i.e. where you have your function calls).
+You have the following three variables from the arp table of a router:
+```
+mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"
+mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"
+mac3 = "Internet  10.220.88.32          231   5254.abc7.26aa  ARPA   FastEthernet4"
+```
+Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" mappings. The output should look like following:
 
-   Inside of pdb, experiment with:
+```
+            IP ADDR          MAC ADDRESS
+-------------------- --------------------
+      10.220.88.29       5254.abbe.5b7b
+      10.220.88.30       5254.ab71.e119
+      10.220.88.32       5254.abc7.26aa
+```
 
-   Listing your code. <br>
-   Using 'next' and 'step' to walk through your code. Make sure you understand the difference between next and step. <br>
-   Experiment with 'up' and 'down' to move up and down the code stack. <br>
-   Use p <variable> to inspect a variable. <br>
-   Set a breakpoint and run your code to the breakpoint. <br>
-   Use '!command' to change a variable (for example !new_mac = []) <br>
+Two columns, 20 characters wide, data right aligned, a header column.
