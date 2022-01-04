@@ -21,82 +21,19 @@ Length is 8 minutes <br>
 Video link https://vimeo.com/247724017 <br>
 Length is 10 minutes <br>
 
-## Additional Content:
+# Additional Content:
 
 [A Byte of Python, Functions](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiczVtMnN2aGc2MmliZGIwMDRvaDMiLCJ1cmwiOiJodHRwczovL3B5dGhvbi5zd2Fyb29wY2guY29tL2Z1bmN0aW9ucy5odG1sP19fcz1sa3hhMzhobDB2cHN3cXQzOGlkNiJ9)
 
 [How to use the Python Debugger](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiczVtMnN2aGc2MmliZGIwMDRvaDMiLCJ1cmwiOiJodHRwczovL3d3dy5kaWdpdGFsb2NlYW4uY29tL2NvbW11bml0eS90dXRvcmlhbHMvaG93LXRvLXVzZS10aGUtcHl0aG9uLWRlYnVnZ2VyP19fcz1sa3hhMzhobDB2cHN3cXQzOGlkNiJ9)
 
-## Exercises
 
+# GitHub.com: Kirk Byers
 Reference code for these exercises is posted on GitHub at:
     https://github.com/ktbyers/pynet/tree/master/learning_python/lesson5
 
 
-1. Create an ssh_conn function. This function should have three parameters: ip_addr, username, and password. The function should print out each of these three variables and clearly indicate which variable it is printing out.
-
-   Call this ssh_conn function using entirely positional arguments.
-
-   Call this ssh_conn function using entirely named arguments.
-
-   Call this ssh_conn function using a mix of positional and named arguments.
-
-2. Expand on the ssh_conn function from exercise1 except add a fourth parameter 'device_type' with a default value of 'cisco_ios'. Print all four of the function variables out as part of the function's execution.
-
-   Call the 'ssh_conn2' function both with and without specifying the device_type
-
-   Create a dictionary that maps to the function's parameters. Call this ssh_conn2 function using the **kwargs technique.
-
-3.  Create a function that randomly generates an IP address for a network. The default base network should be '10.10.10.'. For simplicity the network will always be a /24.
-
-    You should be able to pass a different base network into your function as an argument.
-
-    Randomly pick a number between 1 and 254 for the last octet and return the full IP address.
-
-    You can use the following to randomly generate the last octet:
-
-    import random <br>
-    random.randint(1, 254)
-
-    Call your function using no arguments. <br>
-    Call your function using a positional argument. <br>
-    Call your function using a named argument. <br>
-
-    For each function call print the returned IP address to the screen.
-
-4. Similar to lesson3, exercise4 write a function that normalizes a MAC address to the following format:
-
-   01:23:45:67:89:AB
-
-   This function should handle the lower-case to upper-case conversion.
-
-   It should also handle converting from '0000.aaaa.bbbb' and from '00-00-aa-aa-bb-bb' formats.
-
-   The function should have one parameter, the mac_address. It should return the normalized MAC address
-
-   Single digit bytes should be zero-padded to two digits. In other words, this:
-
-   a:b:c:d:e:f
-
-   should be converted to:
-
-   0A:0B:0C:0D:0E:0F
-
-   Write several test cases for your function and verify it is working properly.
-
-5. Copy your solution from exercise3 to exercise4. Add an 'import pdb' and pdb.set_trace() statement outside of your function (i.e. where you have your function calls).
-
-   Inside of pdb, experiment with:
-
-   Listing your code. <br>
-   Using 'next' and 'step' to walk through your code. Make sure you understand the difference between next and step. <br>
-   Experiment with 'up' and 'down' to move up and down the code stack. <br>
-   Use p <variable> to inspect a variable. <br>
-   Set a breakpoint and run your code to the breakpoint. <br>
-   Use '!command' to change a variable (for example !new_mac = []) <br>
-
 ## CLASS OUTLINE
-
 
 1. Functions (Part1) (VIDEO1)
    - How to define   [0:04]
